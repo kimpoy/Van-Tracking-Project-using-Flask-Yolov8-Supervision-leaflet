@@ -1,3 +1,18 @@
+This project is used in raspberry pi 4 and the people tracking using yolov8 and supervision in integrated to the webapp. I use leaflet for gps to track the location of the van.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 python3 -m venv venv
 yolo detect predict model=yolov8n.pt source=0 show=true
 pip install supervision==0.3.0
